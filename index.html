@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><img src="pas_foto.jpg"></title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #00ccff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .profile-card {
+      max-width: 700px;
+      margin: auto;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 30px;
+      text-align: center;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #3498db;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      color: #2c3e50;
+    }
+
+    p.bio {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    ul.info {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+
+    ul.info li {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #2980b9;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #219150;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="oas_foto.jpg" alt="Foto Profil Ahmad Adittian" class="profile-photo">
+    <h1>Ahmad Adittian</h1>
+    <p class="bio">
+      Halo, nama saya Ahmad Adittian. Saya lulusan Pondok Pesantren Babussalam Kandangan, berumur 18 tahun, dan saat ini menempuh pendidikan di UNIVERSITAS ISLAM KALIMANTAN MUHAMMAD ARSYAD AL-BANJARI saya mengambil jurusan informatika. saya mengambil jurusan informatika karena ingin lebih tahu tentang teknolog.
+    </p>
+    <ul class="info">
+      <li><span class="label">NPM:</span> 2510010479</li>
+      <li><span class="label">Hobi:</span> Naik gunung, Lari</li>
+      <li><span class="label">Keterampilan:</span> Membuat film pendek</li>
+      <li><span class="label">Hubungi:</span> 0831-3797-2818</li>
+    </ul>
+    <button onclick="hubungi()">Hubungi Sekarang</button>
+  </div>
+
+  <script>
+    function hubungi() {
+      alert("Menghubungi Ahmad Adittian di 0831-3797-2818...");
+    }
+  </script>
+
+</body>
+</html>
